@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 Yii 2 Advanced Project Template
 ===============================
 
@@ -23,9 +22,9 @@ DIRECTORY STRUCTURE
 
 ```
 common
-    config/              contains shared configurations 前后台和命令行通用的公共配置文件
-    mail/                contains view files for e-mails 前后台和命令行通用的跟邮件相关的布局和模板文件
-    models/              contains model classes used in both backend and frontend 前后台和命令行共用的model文件，也是common中最主要部分，承担重任。
+    config/              contains shared configurations 
+    mail/                contains view files for e-mails 
+    models/              contains model classes used in both backend and frontend 
 
 console
     config/              contains console configurations 
@@ -42,24 +41,23 @@ backend
     views/               contains view files for the Web application
     web/                 contains the entry script and Web resources
 frontend
-    assets/              contains application assets such as JavaScript and CSS 前端资源包php类，用于管理js/css等
+    assets/              contains application assets such as JavaScript and CSS 
 
-    config/              contains frontend configurations  前端应用配置文件，包含main.php的主配置文件和params.php的全局参数配置文件
+    config/              contains frontend configurations  
 
-    controllers/         contains Web controller classes 前端应用的控制器文件
-    models/              contains frontend-specific model classes 前端应用的模型文件
+    controllers/         contains Web controller classes 
+    models/              contains frontend-specific model classes 
     runtime/             contains files generated during runtime 
-    web服务器具有777权限的目录，写入运行时临时文件
 
-    views/               contains view files for the Web application  前端应用视图文件
-    web/                 contains the entry script and Web resources  web用户可以访问的目录，此外所有目录均不可暴露给web用户
+    views/               contains view files for the Web application  
+    web/                 contains the entry script and Web resources  
 
-    widgets/             contains frontend widgets  前端应用的小挂件
+    widgets/             contains frontend widgets  
 vendor/                  contains dependent 3rd-party packages 
 第三方库和yii框架本身，修改composer.json ，就可以将第三方工具安装到此目录
 
-environments/            contains environment-based overrides  
-tests                    contains various tests for the advanced application
+environments/            contains environment-based overrides  开发、生产和测试环境等。
+tests                    contains various tests for the advanced application 测试用例
     codeception/         contains tests developed with Codeception PHP Testing Framework
 ```
 =======
