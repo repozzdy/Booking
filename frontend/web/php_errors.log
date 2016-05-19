@@ -1,0 +1,1 @@
+[03-May-2016 16:29:12 PRC] PHP Fatal error:  Call to undefined method Yii::app() in F:\222\php\yii\booking\frontend\controllers\SiteController.php on line 75

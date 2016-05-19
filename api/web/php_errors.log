@@ -1,0 +1,14 @@
+[17-May-2016 15:07:25 PRC] PHP Fatal error:  Class 'api\modules\v1\controllers\ActiveDataProvider' not found in F:\222\php\yii\booking\api\modules\v1\controllers\UserController.php on line 21
+[17-May-2016 15:07:51 PRC] PHP Fatal error:  Class 'yii\web\ActiveDataProvider' not found in F:\222\php\yii\booking\api\modules\v1\controllers\UserController.php on line 21
+[17-May-2016 15:08:00 PRC] PHP Fatal error:  Class 'yii\rest\ActiveDataProvider' not found in F:\222\php\yii\booking\api\modules\v1\controllers\UserController.php on line 21
+[17-May-2016 15:32:53 PRC] PHP Fatal error:  Class 'api\modules\v1\controllers\ActiveDataProvider' not found in F:\222\php\yii\booking\api\modules\v1\controllers\UserController.php on line 25
+[17-May-2016 18:22:50 PRC] PHP Fatal error:  Call to undefined function api\modules\v1\models\random_bytes() in F:\222\php\yii\booking\api\modules\v1\models\User.php on line 82
+[18-May-2016 11:40:54 PRC] PHP Fatal error:  Call to a member function loginByAccessToken() on a non-object in F:\222\php\yii\booking\vendor\yiisoft\yii2\filters\auth\QueryParamAuth.php on line 31
+[18-May-2016 11:41:37 PRC] PHP Fatal error:  Call to a member function loginByAccessToken() on a non-object in F:\222\php\yii\booking\vendor\yiisoft\yii2\filters\auth\QueryParamAuth.php on line 31
+[18-May-2016 11:42:27 PRC] PHP Fatal error:  Call to a member function loginByAccessToken() on a non-object in F:\222\php\yii\booking\vendor\yiisoft\yii2\filters\auth\QueryParamAuth.php on line 31
+[18-May-2016 11:49:11 PRC] PHP Fatal error:  Call to undefined function yii\filters\auth\pirnt_r() in F:\222\php\yii\booking\vendor\yiisoft\yii2\filters\auth\QueryParamAuth.php on line 32
+[18-May-2016 14:27:04 PRC] PHP Fatal error:  Class 'api\modules\v1\controllers\ArrayHelper' not found in F:\222\php\yii\booking\api\modules\v1\controllers\RoomController.php on line 10
+[18-May-2016 14:29:45 PRC] PHP Fatal error:  Class 'api\modules\v1\controllers\ArrayHelper' not found in F:\222\php\yii\booking\api\modules\v1\controllers\RoomController.php on line 10
+[18-May-2016 14:31:08 PRC] PHP Fatal error:  Class 'api\modules\v1\controllers\ArrayHelper' not found in F:\222\php\yii\booking\api\modules\v1\controllers\RoomController.php on line 10
+[18-May-2016 14:32:21 PRC] PHP Fatal error:  Class 'api\modules\v1\controllers\AccessControl' not found in F:\222\php\yii\booking\api\modules\v1\controllers\RoomController.php on line 14
+[18-May-2016 16:57:08 PRC] PHP Fatal error:  Class 'api\modules\v1\models\TimestampBehavior' not found in F:\222\php\yii\booking\api\modules\v1\models\Order.php on line 36

@@ -1,0 +1,1199 @@
+[03-May-2016 17:58:05 PRC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/index', Array)
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming',
+    'CLASSPATH' => 'D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\dt.jar;D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\tools.jar;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\lib\\servlet-api.jar',
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'CRO369P4OLGPRGV',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'FP_NO_HOST_CHECK' => 'NO',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\Administrator',
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_73',
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local',
+    'LOGONSERVER' => '\\\\CRO369P4OLGPRGV',
+    'NUMBER_OF_PROCESSORS' => '4',
+    'OS' => 'Windows_NT',
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\software\\jdk;D:\\software\\xampp\\mysql\\bin;F:\\test\\framework;D:\\software\\xampp\\php;C:\\Program Files\\Microsoft\\Web Platform Installer\\;D:\\Program Files\\MongoDB\\Server\\3.0\\bin;D:\\software\\svn\\bin;D:\\phpStudy\\php54n;D:\\software\\svn\\bin;D:\\phpStudy\\MySQL\\bin;D:\\Program Files (x86)\\redis\\64bit;D:\\Program Files\\Java\\jdk1.8.0_73\\bin;D:\\Program Files\\Java\\jdk1.8.0_73\\jre\\bin;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'PROCESSOR_ARCHITECTURE' => 'x86',
+    'PROCESSOR_ARCHITEW6432' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '3c03',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files (x86)',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TOMCAT_HOME' => 'D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32',
+    'USERDOMAIN' => 'CRO369P4OLGPRGV',
+    'USERNAME' => 'Administrator',
+    'USERPROFILE' => 'C:\\Users\\Administrator',
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\virtualBox\\',
+    'windir' => 'C:\\Windows',
+    'windows_tracing_flags' => '3',
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log',
+    'HTTP_TOPURL' => 'true',
+    'HTTP_BROWSERTABID' => '182',
+    'HTTP_COOKIE' => '_csrf=cdb6eea642a2da82ea5c21866abcaa68d2eb4e9cc5cda29420ec715e9e6f961aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YUl_Th6ek-oGiJ3Ft6Ie-KJaTbtqXv5i%22%3B%7D; PHPSESSID=ukv551j2vjml8cqvafgtueg331; _identity=1c59dd9fc42a083000598f83814294a2d7e34ccff3fbd1cc2d5b1e87fbdcc58ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22286lGadLRUkFHHJ8VPcShwy3NqAmyzG9%22%2C2592000%5D%22%3B%7D',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, gzip',
+    'HTTP_REFERER' => 'http://admin.booking.com/',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => 'admin.booking.com',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => 'admin.booking.com',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '127.0.0.1',
+    'REMOTE_PORT' => '52169',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'SERVER_SOFTWARE' => 'nginx/1.6.2',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => 'F:/222/php/yii/booking/backend/web',
+    'DOCUMENT_URI' => '/index.php/site/index',
+    'REQUEST_URI' => '/site/index',
+    'SCRIPT_NAME' => '/index.php',
+    'CONTENT_LENGTH' => '',
+    'CONTENT_TYPE' => '',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'PATH_TRANSLATED' => 'F:/222/php/yii/booking/backend/web/site/index',
+    'PATH_INFO' => '/site/index',
+    'SCRIPT_FILENAME' => 'F:/222/php/yii/booking/backend/web/index.php',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php/site/index',
+    'REQUEST_TIME_FLOAT' => 1462269485.701184,
+    'REQUEST_TIME' => 1462269485,
+]
+[03-May-2016 17:58:52 PRC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming',
+    'CLASSPATH' => 'D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\dt.jar;D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\tools.jar;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\lib\\servlet-api.jar',
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'CRO369P4OLGPRGV',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'FP_NO_HOST_CHECK' => 'NO',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\Administrator',
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_73',
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local',
+    'LOGONSERVER' => '\\\\CRO369P4OLGPRGV',
+    'NUMBER_OF_PROCESSORS' => '4',
+    'OS' => 'Windows_NT',
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\software\\jdk;D:\\software\\xampp\\mysql\\bin;F:\\test\\framework;D:\\software\\xampp\\php;C:\\Program Files\\Microsoft\\Web Platform Installer\\;D:\\Program Files\\MongoDB\\Server\\3.0\\bin;D:\\software\\svn\\bin;D:\\phpStudy\\php54n;D:\\software\\svn\\bin;D:\\phpStudy\\MySQL\\bin;D:\\Program Files (x86)\\redis\\64bit;D:\\Program Files\\Java\\jdk1.8.0_73\\bin;D:\\Program Files\\Java\\jdk1.8.0_73\\jre\\bin;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'PROCESSOR_ARCHITECTURE' => 'x86',
+    'PROCESSOR_ARCHITEW6432' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '3c03',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files (x86)',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TOMCAT_HOME' => 'D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32',
+    'USERDOMAIN' => 'CRO369P4OLGPRGV',
+    'USERNAME' => 'Administrator',
+    'USERPROFILE' => 'C:\\Users\\Administrator',
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\virtualBox\\',
+    'windir' => 'C:\\Windows',
+    'windows_tracing_flags' => '3',
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log',
+    'HTTP_TOPURL' => 'true',
+    'HTTP_BROWSERTABID' => '182',
+    'HTTP_COOKIE' => '_csrf=cdb6eea642a2da82ea5c21866abcaa68d2eb4e9cc5cda29420ec715e9e6f961aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YUl_Th6ek-oGiJ3Ft6Ie-KJaTbtqXv5i%22%3B%7D; PHPSESSID=h4eniah56920as51fh2p5b2b81',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, gzip',
+    'HTTP_REFERER' => 'http://admin.booking.com/index/index',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => 'admin.booking.com',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => 'admin.booking.com',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '127.0.0.1',
+    'REMOTE_PORT' => '52208',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'SERVER_SOFTWARE' => 'nginx/1.6.2',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => 'F:/222/php/yii/booking/backend/web',
+    'DOCUMENT_URI' => '/index.php/site/login',
+    'REQUEST_URI' => '/site/login',
+    'SCRIPT_NAME' => '/index.php',
+    'CONTENT_LENGTH' => '',
+    'CONTENT_TYPE' => '',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'PATH_TRANSLATED' => 'F:/222/php/yii/booking/backend/web/site/login',
+    'PATH_INFO' => '/site/login',
+    'SCRIPT_FILENAME' => 'F:/222/php/yii/booking/backend/web/index.php',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php/site/login',
+    'REQUEST_TIME_FLOAT' => 1462269532.7398739,
+    'REQUEST_TIME' => 1462269532,
+]
+[03-May-2016 17:59:33 PRC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming',
+    'CLASSPATH' => 'D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\dt.jar;D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\tools.jar;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\lib\\servlet-api.jar',
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'CRO369P4OLGPRGV',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'FP_NO_HOST_CHECK' => 'NO',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\Administrator',
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_73',
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local',
+    'LOGONSERVER' => '\\\\CRO369P4OLGPRGV',
+    'NUMBER_OF_PROCESSORS' => '4',
+    'OS' => 'Windows_NT',
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\software\\jdk;D:\\software\\xampp\\mysql\\bin;F:\\test\\framework;D:\\software\\xampp\\php;C:\\Program Files\\Microsoft\\Web Platform Installer\\;D:\\Program Files\\MongoDB\\Server\\3.0\\bin;D:\\software\\svn\\bin;D:\\phpStudy\\php54n;D:\\software\\svn\\bin;D:\\phpStudy\\MySQL\\bin;D:\\Program Files (x86)\\redis\\64bit;D:\\Program Files\\Java\\jdk1.8.0_73\\bin;D:\\Program Files\\Java\\jdk1.8.0_73\\jre\\bin;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'PROCESSOR_ARCHITECTURE' => 'x86',
+    'PROCESSOR_ARCHITEW6432' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '3c03',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files (x86)',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TOMCAT_HOME' => 'D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32',
+    'USERDOMAIN' => 'CRO369P4OLGPRGV',
+    'USERNAME' => 'Administrator',
+    'USERPROFILE' => 'C:\\Users\\Administrator',
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\virtualBox\\',
+    'windir' => 'C:\\Windows',
+    'windows_tracing_flags' => '3',
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log',
+    'HTTP_TOPURL' => 'true',
+    'HTTP_BROWSERTABID' => '182',
+    'HTTP_COOKIE' => '_csrf=cdb6eea642a2da82ea5c21866abcaa68d2eb4e9cc5cda29420ec715e9e6f961aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YUl_Th6ek-oGiJ3Ft6Ie-KJaTbtqXv5i%22%3B%7D; PHPSESSID=h4eniah56920as51fh2p5b2b81',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, gzip',
+    'HTTP_REFERER' => 'http://admin.booking.com/',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => 'admin.booking.com',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => 'admin.booking.com',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '127.0.0.1',
+    'REMOTE_PORT' => '52208',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'SERVER_SOFTWARE' => 'nginx/1.6.2',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => 'F:/222/php/yii/booking/backend/web',
+    'DOCUMENT_URI' => '/index.php/site/login',
+    'REQUEST_URI' => '/site/login',
+    'SCRIPT_NAME' => '/index.php',
+    'CONTENT_LENGTH' => '',
+    'CONTENT_TYPE' => '',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'PATH_TRANSLATED' => 'F:/222/php/yii/booking/backend/web/site/login',
+    'PATH_INFO' => '/site/login',
+    'SCRIPT_FILENAME' => 'F:/222/php/yii/booking/backend/web/index.php',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php/site/login',
+    'REQUEST_TIME_FLOAT' => 1462269573.675216,
+    'REQUEST_TIME' => 1462269573,
+]
+[03-May-2016 17:59:34 PRC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming',
+    'CLASSPATH' => 'D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\dt.jar;D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\tools.jar;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\lib\\servlet-api.jar',
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'CRO369P4OLGPRGV',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'FP_NO_HOST_CHECK' => 'NO',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\Administrator',
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_73',
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local',
+    'LOGONSERVER' => '\\\\CRO369P4OLGPRGV',
+    'NUMBER_OF_PROCESSORS' => '4',
+    'OS' => 'Windows_NT',
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\software\\jdk;D:\\software\\xampp\\mysql\\bin;F:\\test\\framework;D:\\software\\xampp\\php;C:\\Program Files\\Microsoft\\Web Platform Installer\\;D:\\Program Files\\MongoDB\\Server\\3.0\\bin;D:\\software\\svn\\bin;D:\\phpStudy\\php54n;D:\\software\\svn\\bin;D:\\phpStudy\\MySQL\\bin;D:\\Program Files (x86)\\redis\\64bit;D:\\Program Files\\Java\\jdk1.8.0_73\\bin;D:\\Program Files\\Java\\jdk1.8.0_73\\jre\\bin;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'PROCESSOR_ARCHITECTURE' => 'x86',
+    'PROCESSOR_ARCHITEW6432' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '3c03',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files (x86)',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TOMCAT_HOME' => 'D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32',
+    'USERDOMAIN' => 'CRO369P4OLGPRGV',
+    'USERNAME' => 'Administrator',
+    'USERPROFILE' => 'C:\\Users\\Administrator',
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\virtualBox\\',
+    'windir' => 'C:\\Windows',
+    'windows_tracing_flags' => '3',
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log',
+    'HTTP_TOPURL' => 'true',
+    'HTTP_BROWSERTABID' => '182',
+    'HTTP_COOKIE' => '_csrf=cdb6eea642a2da82ea5c21866abcaa68d2eb4e9cc5cda29420ec715e9e6f961aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YUl_Th6ek-oGiJ3Ft6Ie-KJaTbtqXv5i%22%3B%7D; PHPSESSID=h4eniah56920as51fh2p5b2b81',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, gzip',
+    'HTTP_REFERER' => 'http://admin.booking.com/',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => 'admin.booking.com',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => 'admin.booking.com',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '127.0.0.1',
+    'REMOTE_PORT' => '52208',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'SERVER_SOFTWARE' => 'nginx/1.6.2',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => 'F:/222/php/yii/booking/backend/web',
+    'DOCUMENT_URI' => '/index.php/site/login',
+    'REQUEST_URI' => '/site/login',
+    'SCRIPT_NAME' => '/index.php',
+    'CONTENT_LENGTH' => '',
+    'CONTENT_TYPE' => '',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'PATH_TRANSLATED' => 'F:/222/php/yii/booking/backend/web/site/login',
+    'PATH_INFO' => '/site/login',
+    'SCRIPT_FILENAME' => 'F:/222/php/yii/booking/backend/web/index.php',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php/site/login',
+    'REQUEST_TIME_FLOAT' => 1462269574.5432651,
+    'REQUEST_TIME' => 1462269574,
+]
+[03-May-2016 17:59:45 PRC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming',
+    'CLASSPATH' => 'D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\dt.jar;D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\tools.jar;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\lib\\servlet-api.jar',
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'CRO369P4OLGPRGV',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'FP_NO_HOST_CHECK' => 'NO',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\Administrator',
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_73',
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local',
+    'LOGONSERVER' => '\\\\CRO369P4OLGPRGV',
+    'NUMBER_OF_PROCESSORS' => '4',
+    'OS' => 'Windows_NT',
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\software\\jdk;D:\\software\\xampp\\mysql\\bin;F:\\test\\framework;D:\\software\\xampp\\php;C:\\Program Files\\Microsoft\\Web Platform Installer\\;D:\\Program Files\\MongoDB\\Server\\3.0\\bin;D:\\software\\svn\\bin;D:\\phpStudy\\php54n;D:\\software\\svn\\bin;D:\\phpStudy\\MySQL\\bin;D:\\Program Files (x86)\\redis\\64bit;D:\\Program Files\\Java\\jdk1.8.0_73\\bin;D:\\Program Files\\Java\\jdk1.8.0_73\\jre\\bin;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'PROCESSOR_ARCHITECTURE' => 'x86',
+    'PROCESSOR_ARCHITEW6432' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '3c03',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files (x86)',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TOMCAT_HOME' => 'D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32',
+    'USERDOMAIN' => 'CRO369P4OLGPRGV',
+    'USERNAME' => 'Administrator',
+    'USERPROFILE' => 'C:\\Users\\Administrator',
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\virtualBox\\',
+    'windir' => 'C:\\Windows',
+    'windows_tracing_flags' => '3',
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log',
+    'HTTP_TOPURL' => 'true',
+    'HTTP_BROWSERTABID' => '182',
+    'HTTP_COOKIE' => '_csrf=cdb6eea642a2da82ea5c21866abcaa68d2eb4e9cc5cda29420ec715e9e6f961aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YUl_Th6ek-oGiJ3Ft6Ie-KJaTbtqXv5i%22%3B%7D; PHPSESSID=h4eniah56920as51fh2p5b2b81',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, gzip',
+    'HTTP_REFERER' => 'http://admin.booking.com/user/index?UserSearch%5Bid%5D=&UserSearch%5Btype%5D=&UserSearch%5Busername%5D=&UserSearch%5Brealname%5D=&UserSearch%5Bauth_key%5D=',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => 'admin.booking.com',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => 'admin.booking.com',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '127.0.0.1',
+    'REMOTE_PORT' => '52169',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'SERVER_SOFTWARE' => 'nginx/1.6.2',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => 'F:/222/php/yii/booking/backend/web',
+    'DOCUMENT_URI' => '/index.php/site/login',
+    'REQUEST_URI' => '/site/login',
+    'SCRIPT_NAME' => '/index.php',
+    'CONTENT_LENGTH' => '',
+    'CONTENT_TYPE' => '',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'PATH_TRANSLATED' => 'F:/222/php/yii/booking/backend/web/site/login',
+    'PATH_INFO' => '/site/login',
+    'SCRIPT_FILENAME' => 'F:/222/php/yii/booking/backend/web/index.php',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php/site/login',
+    'REQUEST_TIME_FLOAT' => 1462269585.2378769,
+    'REQUEST_TIME' => 1462269585,
+]
+[03-May-2016 17:59:53 PRC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming',
+    'CLASSPATH' => 'D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\dt.jar;D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\tools.jar;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\lib\\servlet-api.jar',
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'CRO369P4OLGPRGV',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'FP_NO_HOST_CHECK' => 'NO',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\Administrator',
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_73',
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local',
+    'LOGONSERVER' => '\\\\CRO369P4OLGPRGV',
+    'NUMBER_OF_PROCESSORS' => '4',
+    'OS' => 'Windows_NT',
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\software\\jdk;D:\\software\\xampp\\mysql\\bin;F:\\test\\framework;D:\\software\\xampp\\php;C:\\Program Files\\Microsoft\\Web Platform Installer\\;D:\\Program Files\\MongoDB\\Server\\3.0\\bin;D:\\software\\svn\\bin;D:\\phpStudy\\php54n;D:\\software\\svn\\bin;D:\\phpStudy\\MySQL\\bin;D:\\Program Files (x86)\\redis\\64bit;D:\\Program Files\\Java\\jdk1.8.0_73\\bin;D:\\Program Files\\Java\\jdk1.8.0_73\\jre\\bin;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'PROCESSOR_ARCHITECTURE' => 'x86',
+    'PROCESSOR_ARCHITEW6432' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '3c03',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files (x86)',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TOMCAT_HOME' => 'D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32',
+    'USERDOMAIN' => 'CRO369P4OLGPRGV',
+    'USERNAME' => 'Administrator',
+    'USERPROFILE' => 'C:\\Users\\Administrator',
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\virtualBox\\',
+    'windir' => 'C:\\Windows',
+    'windows_tracing_flags' => '3',
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log',
+    'HTTP_TOPURL' => 'true',
+    'HTTP_BROWSERTABID' => '182',
+    'HTTP_COOKIE' => '_csrf=cdb6eea642a2da82ea5c21866abcaa68d2eb4e9cc5cda29420ec715e9e6f961aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YUl_Th6ek-oGiJ3Ft6Ie-KJaTbtqXv5i%22%3B%7D; PHPSESSID=h4eniah56920as51fh2p5b2b81',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, gzip',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => 'admin.booking.com',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => 'admin.booking.com',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '127.0.0.1',
+    'REMOTE_PORT' => '52169',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'SERVER_SOFTWARE' => 'nginx/1.6.2',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => 'F:/222/php/yii/booking/backend/web',
+    'DOCUMENT_URI' => '/index.php/site/login',
+    'REQUEST_URI' => '/site/login',
+    'SCRIPT_NAME' => '/index.php',
+    'CONTENT_LENGTH' => '',
+    'CONTENT_TYPE' => '',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'PATH_TRANSLATED' => 'F:/222/php/yii/booking/backend/web/site/login',
+    'PATH_INFO' => '/site/login',
+    'SCRIPT_FILENAME' => 'F:/222/php/yii/booking/backend/web/index.php',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php/site/login',
+    'REQUEST_TIME_FLOAT' => 1462269593.0763249,
+    'REQUEST_TIME' => 1462269593,
+]
+[03-May-2016 17:59:58 PRC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming',
+    'CLASSPATH' => 'D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\dt.jar;D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\tools.jar;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\lib\\servlet-api.jar',
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'CRO369P4OLGPRGV',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'FP_NO_HOST_CHECK' => 'NO',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\Administrator',
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_73',
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local',
+    'LOGONSERVER' => '\\\\CRO369P4OLGPRGV',
+    'NUMBER_OF_PROCESSORS' => '4',
+    'OS' => 'Windows_NT',
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\software\\jdk;D:\\software\\xampp\\mysql\\bin;F:\\test\\framework;D:\\software\\xampp\\php;C:\\Program Files\\Microsoft\\Web Platform Installer\\;D:\\Program Files\\MongoDB\\Server\\3.0\\bin;D:\\software\\svn\\bin;D:\\phpStudy\\php54n;D:\\software\\svn\\bin;D:\\phpStudy\\MySQL\\bin;D:\\Program Files (x86)\\redis\\64bit;D:\\Program Files\\Java\\jdk1.8.0_73\\bin;D:\\Program Files\\Java\\jdk1.8.0_73\\jre\\bin;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'PROCESSOR_ARCHITECTURE' => 'x86',
+    'PROCESSOR_ARCHITEW6432' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '3c03',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files (x86)',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TOMCAT_HOME' => 'D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32',
+    'USERDOMAIN' => 'CRO369P4OLGPRGV',
+    'USERNAME' => 'Administrator',
+    'USERPROFILE' => 'C:\\Users\\Administrator',
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\virtualBox\\',
+    'windir' => 'C:\\Windows',
+    'windows_tracing_flags' => '3',
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log',
+    'HTTP_TOPURL' => 'true',
+    'HTTP_BROWSERTABID' => '182',
+    'HTTP_COOKIE' => '_csrf=cdb6eea642a2da82ea5c21866abcaa68d2eb4e9cc5cda29420ec715e9e6f961aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YUl_Th6ek-oGiJ3Ft6Ie-KJaTbtqXv5i%22%3B%7D; PHPSESSID=h4eniah56920as51fh2p5b2b81',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, gzip',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => 'admin.booking.com',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => 'admin.booking.com',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '127.0.0.1',
+    'REMOTE_PORT' => '52169',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'SERVER_SOFTWARE' => 'nginx/1.6.2',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => 'F:/222/php/yii/booking/backend/web',
+    'DOCUMENT_URI' => '/index.php/site/login',
+    'REQUEST_URI' => '/site/login',
+    'SCRIPT_NAME' => '/index.php',
+    'CONTENT_LENGTH' => '',
+    'CONTENT_TYPE' => '',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'PATH_TRANSLATED' => 'F:/222/php/yii/booking/backend/web/site/login',
+    'PATH_INFO' => '/site/login',
+    'SCRIPT_FILENAME' => 'F:/222/php/yii/booking/backend/web/index.php',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php/site/login',
+    'REQUEST_TIME_FLOAT' => 1462269598.7936521,
+    'REQUEST_TIME' => 1462269598,
+]
+[03-May-2016 18:00:05 PRC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming',
+    'CLASSPATH' => 'D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\dt.jar;D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\tools.jar;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\lib\\servlet-api.jar',
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'CRO369P4OLGPRGV',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'FP_NO_HOST_CHECK' => 'NO',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\Administrator',
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_73',
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local',
+    'LOGONSERVER' => '\\\\CRO369P4OLGPRGV',
+    'NUMBER_OF_PROCESSORS' => '4',
+    'OS' => 'Windows_NT',
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\software\\jdk;D:\\software\\xampp\\mysql\\bin;F:\\test\\framework;D:\\software\\xampp\\php;C:\\Program Files\\Microsoft\\Web Platform Installer\\;D:\\Program Files\\MongoDB\\Server\\3.0\\bin;D:\\software\\svn\\bin;D:\\phpStudy\\php54n;D:\\software\\svn\\bin;D:\\phpStudy\\MySQL\\bin;D:\\Program Files (x86)\\redis\\64bit;D:\\Program Files\\Java\\jdk1.8.0_73\\bin;D:\\Program Files\\Java\\jdk1.8.0_73\\jre\\bin;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'PROCESSOR_ARCHITECTURE' => 'x86',
+    'PROCESSOR_ARCHITEW6432' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '3c03',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files (x86)',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TOMCAT_HOME' => 'D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32',
+    'USERDOMAIN' => 'CRO369P4OLGPRGV',
+    'USERNAME' => 'Administrator',
+    'USERPROFILE' => 'C:\\Users\\Administrator',
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\virtualBox\\',
+    'windir' => 'C:\\Windows',
+    'windows_tracing_flags' => '3',
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log',
+    'HTTP_TOPURL' => 'true',
+    'HTTP_BROWSERTABID' => '182',
+    'HTTP_COOKIE' => '_csrf=cdb6eea642a2da82ea5c21866abcaa68d2eb4e9cc5cda29420ec715e9e6f961aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YUl_Th6ek-oGiJ3Ft6Ie-KJaTbtqXv5i%22%3B%7D; PHPSESSID=h4eniah56920as51fh2p5b2b81',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, gzip',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => 'admin.booking.com',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => 'admin.booking.com',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '127.0.0.1',
+    'REMOTE_PORT' => '52169',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'SERVER_SOFTWARE' => 'nginx/1.6.2',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => 'F:/222/php/yii/booking/backend/web',
+    'DOCUMENT_URI' => '/index.php/site/login',
+    'REQUEST_URI' => '/site/login',
+    'SCRIPT_NAME' => '/index.php',
+    'CONTENT_LENGTH' => '',
+    'CONTENT_TYPE' => '',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'PATH_TRANSLATED' => 'F:/222/php/yii/booking/backend/web/site/login',
+    'PATH_INFO' => '/site/login',
+    'SCRIPT_FILENAME' => 'F:/222/php/yii/booking/backend/web/index.php',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php/site/login',
+    'REQUEST_TIME_FLOAT' => 1462269605.5020361,
+    'REQUEST_TIME' => 1462269605,
+]
+[03-May-2016 18:02:31 PRC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming',
+    'CLASSPATH' => 'D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\dt.jar;D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\tools.jar;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\lib\\servlet-api.jar',
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'CRO369P4OLGPRGV',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'FP_NO_HOST_CHECK' => 'NO',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\Administrator',
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_73',
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local',
+    'LOGONSERVER' => '\\\\CRO369P4OLGPRGV',
+    'NUMBER_OF_PROCESSORS' => '4',
+    'OS' => 'Windows_NT',
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\software\\jdk;D:\\software\\xampp\\mysql\\bin;F:\\test\\framework;D:\\software\\xampp\\php;C:\\Program Files\\Microsoft\\Web Platform Installer\\;D:\\Program Files\\MongoDB\\Server\\3.0\\bin;D:\\software\\svn\\bin;D:\\phpStudy\\php54n;D:\\software\\svn\\bin;D:\\phpStudy\\MySQL\\bin;D:\\Program Files (x86)\\redis\\64bit;D:\\Program Files\\Java\\jdk1.8.0_73\\bin;D:\\Program Files\\Java\\jdk1.8.0_73\\jre\\bin;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'PROCESSOR_ARCHITECTURE' => 'x86',
+    'PROCESSOR_ARCHITEW6432' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '3c03',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files (x86)',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TOMCAT_HOME' => 'D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32',
+    'USERDOMAIN' => 'CRO369P4OLGPRGV',
+    'USERNAME' => 'Administrator',
+    'USERPROFILE' => 'C:\\Users\\Administrator',
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\virtualBox\\',
+    'windir' => 'C:\\Windows',
+    'windows_tracing_flags' => '3',
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log',
+    'HTTP_TOPURL' => 'true',
+    'HTTP_BROWSERTABID' => '182',
+    'HTTP_COOKIE' => '_csrf=cdb6eea642a2da82ea5c21866abcaa68d2eb4e9cc5cda29420ec715e9e6f961aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YUl_Th6ek-oGiJ3Ft6Ie-KJaTbtqXv5i%22%3B%7D; PHPSESSID=h4eniah56920as51fh2p5b2b81',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, gzip',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => 'admin.booking.com',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => 'admin.booking.com',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '127.0.0.1',
+    'REMOTE_PORT' => '52354',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'SERVER_SOFTWARE' => 'nginx/1.6.2',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => 'F:/222/php/yii/booking/backend/web',
+    'DOCUMENT_URI' => '/index.php/site/login',
+    'REQUEST_URI' => '/site/login',
+    'SCRIPT_NAME' => '/index.php',
+    'CONTENT_LENGTH' => '',
+    'CONTENT_TYPE' => '',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'PATH_TRANSLATED' => 'F:/222/php/yii/booking/backend/web/site/login',
+    'PATH_INFO' => '/site/login',
+    'SCRIPT_FILENAME' => 'F:/222/php/yii/booking/backend/web/index.php',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php/site/login',
+    'REQUEST_TIME_FLOAT' => 1462269751.093363,
+    'REQUEST_TIME' => 1462269751,
+]
+[03-May-2016 18:05:06 PRC] An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming',
+    'CLASSPATH' => 'D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\dt.jar;D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\tools.jar;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\lib\\servlet-api.jar',
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'CRO369P4OLGPRGV',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'FP_NO_HOST_CHECK' => 'NO',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\Administrator',
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_73',
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local',
+    'LOGONSERVER' => '\\\\CRO369P4OLGPRGV',
+    'NUMBER_OF_PROCESSORS' => '4',
+    'OS' => 'Windows_NT',
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\software\\jdk;D:\\software\\xampp\\mysql\\bin;F:\\test\\framework;D:\\software\\xampp\\php;C:\\Program Files\\Microsoft\\Web Platform Installer\\;D:\\Program Files\\MongoDB\\Server\\3.0\\bin;D:\\software\\svn\\bin;D:\\phpStudy\\php54n;D:\\software\\svn\\bin;D:\\phpStudy\\MySQL\\bin;D:\\Program Files (x86)\\redis\\64bit;D:\\Program Files\\Java\\jdk1.8.0_73\\bin;D:\\Program Files\\Java\\jdk1.8.0_73\\jre\\bin;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'PROCESSOR_ARCHITECTURE' => 'x86',
+    'PROCESSOR_ARCHITEW6432' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '3c03',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files (x86)',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TOMCAT_HOME' => 'D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32',
+    'USERDOMAIN' => 'CRO369P4OLGPRGV',
+    'USERNAME' => 'Administrator',
+    'USERPROFILE' => 'C:\\Users\\Administrator',
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\virtualBox\\',
+    'windir' => 'C:\\Windows',
+    'windows_tracing_flags' => '3',
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log',
+    'HTTP_TOPURL' => 'true',
+    'HTTP_BROWSERTABID' => '182',
+    'HTTP_COOKIE' => '_csrf=cdb6eea642a2da82ea5c21866abcaa68d2eb4e9cc5cda29420ec715e9e6f961aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YUl_Th6ek-oGiJ3Ft6Ie-KJaTbtqXv5i%22%3B%7D; PHPSESSID=h4eniah56920as51fh2p5b2b81',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, gzip',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => 'admin.booking.com',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => 'admin.booking.com',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '127.0.0.1',
+    'REMOTE_PORT' => '52446',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'SERVER_SOFTWARE' => 'nginx/1.6.2',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => 'F:/222/php/yii/booking/backend/web',
+    'DOCUMENT_URI' => '/index.php/site/login',
+    'REQUEST_URI' => '/site/login',
+    'SCRIPT_NAME' => '/index.php',
+    'CONTENT_LENGTH' => '',
+    'CONTENT_TYPE' => '',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'PATH_TRANSLATED' => 'F:/222/php/yii/booking/backend/web/site/login',
+    'PATH_INFO' => '/site/login',
+    'SCRIPT_FILENAME' => 'F:/222/php/yii/booking/backend/web/index.php',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php/site/login',
+    'REQUEST_TIME_FLOAT' => 1462269906.0262251,
+    'REQUEST_TIME' => 1462269906,
+]
+[03-May-2016 18:51:29 PRC] An Error occurred while handling another error:
+exception 'yii\base\InvalidParamException' with message 'The view file does not exist: F:\222\php\yii\booking\backend\views\index\error.php' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\222\\php\\yii\\...', Array, Object(backend\controllers\IndexController))
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('error', Array, Object(backend\controllers\IndexController))
+#2 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#3 [internal function]: yii\web\ErrorAction->run()
+#4 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#5 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\Action->runWithParams(Array)
+#6 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('error', Array)
+#7 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\ErrorHandler.php(93): yii\base\Module->runAction('index/error')
+#8 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#9 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#10 {main}
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming',
+    'CLASSPATH' => 'D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\dt.jar;D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\tools.jar;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\lib\\servlet-api.jar',
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'CRO369P4OLGPRGV',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'FP_NO_HOST_CHECK' => 'NO',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\Administrator',
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_73',
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local',
+    'LOGONSERVER' => '\\\\CRO369P4OLGPRGV',
+    'NUMBER_OF_PROCESSORS' => '4',
+    'OS' => 'Windows_NT',
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\software\\jdk;D:\\software\\xampp\\mysql\\bin;F:\\test\\framework;D:\\software\\xampp\\php;C:\\Program Files\\Microsoft\\Web Platform Installer\\;D:\\Program Files\\MongoDB\\Server\\3.0\\bin;D:\\software\\svn\\bin;D:\\phpStudy\\php54n;D:\\software\\svn\\bin;D:\\phpStudy\\MySQL\\bin;D:\\Program Files (x86)\\redis\\64bit;D:\\Program Files\\Java\\jdk1.8.0_73\\bin;D:\\Program Files\\Java\\jdk1.8.0_73\\jre\\bin;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'PROCESSOR_ARCHITECTURE' => 'x86',
+    'PROCESSOR_ARCHITEW6432' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '3c03',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files (x86)',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TOMCAT_HOME' => 'D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32',
+    'USERDOMAIN' => 'CRO369P4OLGPRGV',
+    'USERNAME' => 'Administrator',
+    'USERPROFILE' => 'C:\\Users\\Administrator',
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\virtualBox\\',
+    'windir' => 'C:\\Windows',
+    'windows_tracing_flags' => '3',
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log',
+    'HTTP_TOPURL' => 'true',
+    'HTTP_BROWSERTABID' => '182',
+    'HTTP_COOKIE' => '_csrf=cdb6eea642a2da82ea5c21866abcaa68d2eb4e9cc5cda29420ec715e9e6f961aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YUl_Th6ek-oGiJ3Ft6Ie-KJaTbtqXv5i%22%3B%7D; PHPSESSID=46va2h7abcmnqfvvlg5023ge10',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, gzip',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => 'admin.booking.com',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => 'admin.booking.com',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '127.0.0.1',
+    'REMOTE_PORT' => '54350',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'SERVER_SOFTWARE' => 'nginx/1.6.2',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => 'F:/222/php/yii/booking/backend/web',
+    'DOCUMENT_URI' => '/index.php',
+    'REQUEST_URI' => '/',
+    'SCRIPT_NAME' => '/index.php',
+    'CONTENT_LENGTH' => '',
+    'CONTENT_TYPE' => '',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'PATH_TRANSLATED' => 'F:/222/php/yii/booking/backend/web',
+    'PATH_INFO' => '',
+    'SCRIPT_FILENAME' => 'F:/222/php/yii/booking/backend/web/index.php',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1462272689.1414101,
+    'REQUEST_TIME' => 1462272689,
+]
+[03-May-2016 18:56:25 PRC] An Error occurred while handling another error:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\Application::ge' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\di\ServiceLocator.php(73): yii\base\Component->__get('ge')
+#1 F:\222\php\yii\booking\backend\views\index\error.php(21): yii\di\ServiceLocator->__get('ge')
+#2 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\View.php(325): require('F:\\222\\php\\yii\\...')
+#3 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\222\\php\\yii\\...', Array)
+#4 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\222\\php\\yii\\...', Array, Object(backend\controllers\IndexController))
+#5 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('error', Array, Object(backend\controllers\IndexController))
+#6 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#7 [internal function]: yii\web\ErrorAction->run()
+#8 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Action.php(92): call_user_func_array(Array, Array)
+#9 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\Action->runWithParams(Array)
+#10 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('error', Array)
+#11 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\ErrorHandler.php(93): yii\base\Module->runAction('index/error')
+#12 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#13 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#14 {main}
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#1 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\222\php\yii\booking\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\222\php\yii\booking\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\222\php\yii\booking\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData',
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming',
+    'CLASSPATH' => 'D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\dt.jar;D:\\Program Files\\Java\\jdk1.8.0_73\\lib\\tools.jar;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\lib\\servlet-api.jar',
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files',
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files',
+    'COMPUTERNAME' => 'CRO369P4OLGPRGV',
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe',
+    'FP_NO_HOST_CHECK' => 'NO',
+    'HOMEDRIVE' => 'C:',
+    'HOMEPATH' => '\\Users\\Administrator',
+    'JAVA_HOME' => 'D:\\Program Files\\Java\\jdk1.8.0_73',
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local',
+    'LOGONSERVER' => '\\\\CRO369P4OLGPRGV',
+    'NUMBER_OF_PROCESSORS' => '4',
+    'OS' => 'Windows_NT',
+    'Path' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\software\\jdk;D:\\software\\xampp\\mysql\\bin;F:\\test\\framework;D:\\software\\xampp\\php;C:\\Program Files\\Microsoft\\Web Platform Installer\\;D:\\Program Files\\MongoDB\\Server\\3.0\\bin;D:\\software\\svn\\bin;D:\\phpStudy\\php54n;D:\\software\\svn\\bin;D:\\phpStudy\\MySQL\\bin;D:\\Program Files (x86)\\redis\\64bit;D:\\Program Files\\Java\\jdk1.8.0_73\\bin;D:\\Program Files\\Java\\jdk1.8.0_73\\jre\\bin;D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'PROCESSOR_ARCHITECTURE' => 'x86',
+    'PROCESSOR_ARCHITEW6432' => 'AMD64',
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel',
+    'PROCESSOR_LEVEL' => '6',
+    'PROCESSOR_REVISION' => '3c03',
+    'ProgramData' => 'C:\\ProgramData',
+    'ProgramFiles' => 'C:\\Program Files (x86)',
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)',
+    'ProgramW6432' => 'C:\\Program Files',
+    'PUBLIC' => 'C:\\Users\\Public',
+    'SESSIONNAME' => 'Console',
+    'SystemDrive' => 'C:',
+    'SystemRoot' => 'C:\\Windows',
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp',
+    'TOMCAT_HOME' => 'D:\\Program Files\\Java\\apache-tomcat-8.0.32-windows-x64\\apache-tomcat-8.0.32',
+    'USERDOMAIN' => 'CRO369P4OLGPRGV',
+    'USERNAME' => 'Administrator',
+    'USERPROFILE' => 'C:\\Users\\Administrator',
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\virtualBox\\',
+    'windir' => 'C:\\Windows',
+    'windows_tracing_flags' => '3',
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log',
+    'HTTP_TOPURL' => 'true',
+    'HTTP_BROWSERTABID' => '182',
+    'HTTP_COOKIE' => '_csrf=cdb6eea642a2da82ea5c21866abcaa68d2eb4e9cc5cda29420ec715e9e6f961aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YUl_Th6ek-oGiJ3Ft6Ie-KJaTbtqXv5i%22%3B%7D; PHPSESSID=46va2h7abcmnqfvvlg5023ge10',
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, gzip',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_HOST' => 'admin.booking.com',
+    'REDIRECT_STATUS' => '200',
+    'SERVER_NAME' => 'admin.booking.com',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '127.0.0.1',
+    'REMOTE_PORT' => '54557',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'SERVER_SOFTWARE' => 'nginx/1.6.2',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'DOCUMENT_ROOT' => 'F:/222/php/yii/booking/backend/web',
+    'DOCUMENT_URI' => '/index.php',
+    'REQUEST_URI' => '/',
+    'SCRIPT_NAME' => '/index.php',
+    'CONTENT_LENGTH' => '',
+    'CONTENT_TYPE' => '',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'PATH_TRANSLATED' => 'F:/222/php/yii/booking/backend/web',
+    'PATH_INFO' => '',
+    'SCRIPT_FILENAME' => 'F:/222/php/yii/booking/backend/web/index.php',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1462272985.515362,
+    'REQUEST_TIME' => 1462272985,
+]
+[03-May-2016 18:57:33 PRC] PHP Catchable fatal error:  Object of class yii\web\ErrorAction could not be converted to string in F:\222\php\yii\booking\backend\views\index\error.php on line 21
+[06-May-2016 17:34:59 PRC] PHP Fatal error:  Class 'app\models\Expression' not found in F:\222\php\yii\booking\backend\models\User.php on line 37
+[06-May-2016 19:49:00 PRC] PHP Fatal error:  Class 'app\models\TimestampBehavior' not found in F:\222\php\yii\booking\backend\models\UserAddForm.php on line 24
+[09-May-2016 15:05:55 PRC] PHP Fatal error:  Call to undefined method yii\web\View::findByCondition() in F:\222\php\yii\booking\vendor\yiisoft\yii2\db\BaseActiveRecord.php on line 111
+[09-May-2016 15:09:52 PRC] PHP Fatal error:  Call to undefined method yii\web\View::getDb() in F:\222\php\yii\booking\vendor\yiisoft\yii2\db\ActiveQuery.php on line 310
+[09-May-2016 15:56:15 PRC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in F:\222\php\yii\booking\backend\views\hotel\_form.php on line 17
+[12-May-2016 15:41:26 PRC] PHP Fatal error:  Call to undefined function backend\controllers\data() in F:\222\php\yii\booking\backend\controllers\RoomController.php on line 94
